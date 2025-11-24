@@ -5,17 +5,17 @@ class QuickcodeCli < Formula
   desc "QuickCode API CLI tool"
   homepage "https://github.com/QuickCodeNet/quickcode.cli"
   url "https://github.com/QuickCodeNet/quickcode.cli/releases/download/v1.0.2/quickcode-cli-osx-arm64-v1.0.2.tar.gz"
-  sha256 "c5ba61767bb4954191d55149dc3c6090f684faad6cdef095c54fec6aaa09bd18"
+  sha256 "87a79bb15e47636e3993587ed2c834d963b06edc93d8454c2fbe9db5690527c3"
   version "1.0.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/QuickCodeNet/quickcode.cli/releases/download/v1.0.2/quickcode-cli-osx-arm64-v1.0.2.tar.gz"
-      sha256 "c5ba61767bb4954191d55149dc3c6090f684faad6cdef095c54fec6aaa09bd18"
+      sha256 "87a79bb15e47636e3993587ed2c834d963b06edc93d8454c2fbe9db5690527c3"
     else
       url "https://github.com/QuickCodeNet/quickcode.cli/releases/download/v1.0.2/quickcode-cli-osx-x64-v1.0.2.tar.gz"
-      sha256 "fbb4f7932b52e71cc8ac8c5b95778f72b7f3b0bd6ef81dc039012b13f1fe2710"
+      sha256 "d85bdebdb26a8bdb53b4d33c5005e00c696a8bfdef354dd74c021d8032ec3f36"
     end
   end
 
