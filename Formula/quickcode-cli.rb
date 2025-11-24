@@ -4,18 +4,18 @@
 
 class QuickcodeCli < Formula
   desc "QuickCode API CLI tool"
-  homepage "https://github.com/uzeyirapaydin/quickcode.cli"
-  url "https://github.com/uzeyirapaydin/quickcode.cli/releases/download/v1.0.0/quickcode-cli-osx-arm64-v1.0.0.tar.gz"
+  homepage "https://github.com/QuickCodeNet/quickcode.cli"
+  url "https://github.com/QuickCodeNet/quickcode.cli/releases/download/v1.0.0/quickcode-cli-osx-arm64-v1.0.0.tar.gz"
   sha256 "PLACEHOLDER_ARM64_SHA256"
   version "1.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/uzeyirapaydin/quickcode.cli/releases/download/v1.0.0/quickcode-cli-osx-arm64-v1.0.0.tar.gz"
+      url "https://github.com/QuickCodeNet/quickcode.cli/releases/download/v1.0.0/quickcode-cli-osx-arm64-v1.0.0.tar.gz"
       sha256 "PLACEHOLDER_ARM64_SHA256"
     else
-      url "https://github.com/uzeyirapaydin/quickcode.cli/releases/download/v1.0.0/quickcode-cli-osx-x64-v1.0.0.tar.gz"
+      url "https://github.com/QuickCodeNet/quickcode.cli/releases/download/v1.0.0/quickcode-cli-osx-x64-v1.0.0.tar.gz"
       sha256 "PLACEHOLDER_X64_SHA256"
     end
   end
