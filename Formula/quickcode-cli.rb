@@ -4,18 +4,18 @@
 class QuickcodeCli < Formula
   desc "QuickCode API CLI tool"
   homepage "https://github.com/QuickCodeNet/quickcode.cli"
-  url "https://github.com/QuickCodeNet/quickcode.cli/releases/download/v1.0.17/quickcode-cli-osx-arm64-v1.0.17.tar.gz"
-  sha256 "42e6b2e34ee08da08636f7011414aa18e5392975f136af7990f225c7d74ea933"
-  version "1.0.17"
+  url "https://github.com/QuickCodeNet/quickcode.cli/releases/download/v1.0.18/quickcode-cli-osx-arm64-v1.0.18.tar.gz"
+  sha256 "92254ecad8d32b0a545771d4bbe124d1c8c25efc77e4376e53b4892d07ef86f1"
+  version "1.0.18"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/QuickCodeNet/quickcode.cli/releases/download/v1.0.17/quickcode-cli-osx-arm64-v1.0.17.tar.gz"
-      sha256 "42e6b2e34ee08da08636f7011414aa18e5392975f136af7990f225c7d74ea933"
+      url "https://github.com/QuickCodeNet/quickcode.cli/releases/download/v1.0.18/quickcode-cli-osx-arm64-v1.0.18.tar.gz"
+      sha256 "92254ecad8d32b0a545771d4bbe124d1c8c25efc77e4376e53b4892d07ef86f1"
     else
-      url "https://github.com/QuickCodeNet/quickcode.cli/releases/download/v1.0.17/quickcode-cli-osx-x64-v1.0.17.tar.gz"
-      sha256 "aa3920e0ddc52b4abbe7a675bea5a977314082ef2c812fd0a3dbe26f8ff5b958"
+      url "https://github.com/QuickCodeNet/quickcode.cli/releases/download/v1.0.18/quickcode-cli-osx-x64-v1.0.18.tar.gz"
+      sha256 "f240554843f1a86e0f9655f8b399c5d5871d0fb737203aa66c0a2a8a82322a97"
     end
   end
 
